@@ -1,13 +1,16 @@
 {
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.1.6",
     "vite": "^4.3.9",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-tsc": "^1.8.3"
   },
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
   }
 }
